@@ -20,9 +20,11 @@ function About() {
                         </p>
                     </div>
                     <div className="about-image">
-                        <div className="placeholder-image">
-                            <p>Votre photo ici</p>
-                        </div>
+                        <img
+                            src="/images/profile/mon-image.JPG"
+                            alt="Photo de profil"
+                            className="profile-image"
+                        />
                     </div>
                 </div>
             </div>

@@ -29,16 +29,17 @@
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
-.placeholder-project {
+.project-img {
     width: 100%;
     height: 200px;
-    background-color: #ddd;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #666;
-    font-weight: bold;
+    object-fit: cover;
+    transition: transform 0.3s ease;
 }
+
+.project-card:hover .project-img {
+    transform: scale(1.05);
+}
+
 
 .project-content {
     padding: 1.5rem;
